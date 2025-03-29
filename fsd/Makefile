@@ -5,7 +5,7 @@ CFLAGS	= -O2
 CPPFLAGS = 
 CXXFLAGS = -O2
 DEFS	=   
-LIBS	= -lnsl -lm  -static
+LIBS	= -lm
 
 OBJS	= main.o support.o manage.o interface.o servinterface.o clinterface.o \
           sysinterface.o fsd.o cluser.o user.o servuser.o wprofile.o server.o \
